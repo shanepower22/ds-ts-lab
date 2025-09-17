@@ -69,7 +69,7 @@ function addInterest (
     interest: string): string[]{
         if (friend.interests !== undefined) {
             friend.interests.push(interest)
-        }
+        }   
         else {
             friend.interests = [interest]
         }
